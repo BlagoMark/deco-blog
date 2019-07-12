@@ -1,0 +1,46 @@
+* {
+
+}
+  @font-face{
+    font-family: 'Hind-Semibold';
+    src: url('../fonts/Hind-Semibold.ttf');
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 145px;
+  width: 100%;
+  color: #FFF;
+  background: #212429;
+}
+.uk-navbar {
+  width: 90%;
+  height: 50px;
+  padding: 0;
+  margin: auto;
+}
+.uk-navbar-toggle {
+  padding: 0px;
+  min-height: 0px;
+}
+.uk-logo {
+  font-size: 15px;
+  font-family: 'Hind-Semibold';
+  color: #FFF;
+}
+.uk-logo:hover {
+  color: #FFF;
+}
+.uk-logo img {
+  margin: 0 0 4px 0;
+  height: 11px;
+}
+.uk-navbar-right a {
+  padding: 5px;
+}
