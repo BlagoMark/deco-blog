@@ -28,22 +28,35 @@
             <a uk-icon="search" href=""></a>
           </div>
         </div>
-      </div>
-      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
-        <ul class="uk-slideshow-items">
-          <li>
-            <img src="img/carousel-1.png" alt="">
-          </li>
-          <li>
-            <img src="img/dark.jpg" alt="">
-          </li>
-          <li>
-            <img src="img/light.jpg" alt="">
-          </li>
+        <div class="carousel uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 450; max-height: 450; animation: fade">
+          <ul class="uk-slideshow-items">
+            <li>
+              <img class="" src="img/carousel-1.png" alt="" uk-cover>
+              <div class="uk-position-center-left caption uk-position-small uk-text-left">
+                <p uk-slideshow-parallax="x: 200,-200">Latest News</p>
+                <h2 uk-slideshow-parallax="x: 100,-100">BODYBUILDING BEST <br> FOR YOU HEALTH</h2>
+              </div>
+            </li>
+            <li>
+              <img src="img/carousel-2.png" alt="" uk-cover>
+              <div class="uk-position-center-left caption uk-position-small uk-text-left">
+                <p uk-slideshow-parallax="x: 200,-200">Motivation</p>
+                <h2 class="uk-text-uppercase" uk-slideshow-parallax="x: 100,-100">The hardest lift <br> of all is lifting your <br> butt off the couch</h2>
+              </div>
+            </li>
+            <li>
+              <img src="img/carousel-3.png" alt="" uk-cover>
+              <div class="uk-position-center-left caption uk-position-small uk-text-left">
+                <p uk-slideshow-parallax="x: 200,-200">Motivation</p>
+                <h2 class="uk-text-uppercase" uk-slideshow-parallax="x: 100,-100">be strongerthan <br> your excuses</h2>
+              </div>
+            </li>
           </ul>
           <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
           <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         </div>
+      </div>
+
     </header>
 
 

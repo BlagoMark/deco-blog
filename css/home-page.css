@@ -13,10 +13,13 @@ body {
   margin: 0;
   padding: 0;
 }
+header {
+  height: 100vh;
+}
 .navbar {
-  height: 145px;
   width: 100%;
   color: #FFF;
+  height: 50%;
   background: #212429;
 }
 .uk-navbar {
@@ -26,7 +29,7 @@ body {
   margin: auto;
 }
 .uk-navbar-toggle {
-  padding: 0px;
+  padding: 5px;
   min-height: 0px;
 }
 .uk-logo {
@@ -43,4 +46,12 @@ body {
 }
 .uk-navbar-right a {
   padding: 5px;
+}
+.carousel {
+  width: 90%;
+  margin: auto;
+  height: 450px;
+}
+.caption {
+  margin-left: 10%;
 }
